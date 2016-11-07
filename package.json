@@ -4,8 +4,20 @@
   "description": "whatev",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node server.js"
   },
   "author": "bt",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "jasmine-jquery": "^2.1.1",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2"
+  }
 }
