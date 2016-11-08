@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "whatev",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/btidman/testproject.git"
+  },
   "scripts": {
     "test": "karma start",
     "start": "node server.js"
