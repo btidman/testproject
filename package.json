@@ -4,7 +4,7 @@
   "description": "whatev",
   "main": "index.js",
   "scripts": {
-    "test": "test",
+    "test": "karma start",
     "start": "node server.js"
   },
   "author": "bt",
