@@ -7,4 +7,5 @@ dependencies:
     - npm install --dev
 
 test:
-  override: npm run test-once
+  override: 
+    - npm run test-once
