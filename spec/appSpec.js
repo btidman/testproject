@@ -6,6 +6,6 @@ describe("Read Input", function(){
         $("body").append("<input id='name' value='blah'><input>");
         var inputReader = new InputReader();
         expect(inputReader.readInput()).toEqual("blah");
-        $("#hiDiv").remove();
+        $("#name").remove();
     });
 });
